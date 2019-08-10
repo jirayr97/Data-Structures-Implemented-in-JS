@@ -33,4 +33,4 @@ function merge(left, right) {
 
 console.log(mergeSort(array));
 
-console.timeEnd("sort")
+console.timeEnd("sort");
