@@ -1,4 +1,5 @@
-var array = [1,2,32,3,5,67,3,34,222,2];
+console.time("sort")
+var array = [1,2,3,4,5,67];
 
 function mergeSort(data) {
   if (data.length <2 ) {
@@ -30,5 +31,6 @@ function merge(left, right) {
   return out;
 }
 
-var result = mergeSort(array);
-console.log(result);
+console.log(mergeSort(array));
+
+console.timeEnd("sort")
