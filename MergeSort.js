@@ -1,5 +1,5 @@
 console.time("sort")
-var array = [1,2,3,4,5,67];
+var array = [45, 69, 36, 2, 55, 39, 98, 46, 30, 30];
 
 function mergeSort(data) {
   if (data.length <2 ) {
