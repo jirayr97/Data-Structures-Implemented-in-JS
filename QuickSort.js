@@ -66,5 +66,5 @@ function quickSort(arr, left, right){
 
 
 
-console.log(quickSort(array));
+console.log(quickSort(array, 0, array.length -1));
 console.timeEnd("sort")
